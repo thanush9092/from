@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10px 20px 25px rgba(0, 0, 0, .9);
+    overflow: hidden;
+    max-width: 100%;
+    width:400px;
+}
+
+
+.form-control{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom:20px;
+    position: relative;
+}
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-control input{
+    border: 2px solid rgba(128, 128, 128, 0.313);
+    border-radius: 4px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+.btn-success{
+    margin-left: 500px;
+    margin-top: 50px;
+
+}
+.position{
+    position: relative;
+}
+.sec1{
+    position: absolute;
+    top: 400px;
+}
+
+.table {
+    margin-top: 100px;
+}
